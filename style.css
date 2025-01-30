@@ -389,7 +389,7 @@ button:hover {
   justify-content: space-between;
   align-items: flex-end;
   position: relative;
-  background: url("assets/images/contact-form.webp") no-repeat right center;
+  background: url(assets/images/contact-form.webp) no-repeat right center;
   background-size: auto 100%;
   background-color: #ffffff;
   padding: 72px 134px;
