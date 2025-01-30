@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container">
+        <div class="navigation-wrapper">
+          <div class="site-logo">ARCADIA</div>
+          <nav>
+            <button class="menu-toggle" id="menu-toggle">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </button>
+            <ul class="navigation-menu" id="navigation-menu">
+              <li><a href="#home" class="navigation-link">HOME</a></li>
+              <li><a href="#about" class="navigation-link">ABOUT US</a></li>
+              <li><a href="#contact" class="navigation-link">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero-section">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-logo"></div>
+            <h1 class="hero-title">
+              Building the Future with Precision and Passion
+            </h1>
+            <p class="hero-description">
+              We specialize in creating sustainable and innovative construction
+              solutions tailored to your needs.
+            </p>
+            <div class="hero-features">
+              <div class="feature">
+                <div class="feature-icon">
+                  <img src="/assets/images/check-icon.svg" alt="Feature Icon" />
+                </div>
+                <h3>from <span class="feature-bold">$10 000</span> per sq.m</h3>
+              </div>
+              <div class="feature">
+                <div class="feature-icon">
+                  <img src="/assets/images/check-icon.svg" alt="Feature Icon" />
+                </div>
+                <h3><span class="feature-bold">30%</span> savings</h3>
+              </div>
+              <div class="feature">
+                <div class="feature-icon">
+                  <img src="/assets/images/check-icon.svg" alt="Feature Icon" />
+                </div>
+                <h3>from <span class="feature-bold">17%</span> down payment</h3>
+              </div>
+            </div>
+            <button onclick="location.href='#contact'">ORDER NOW</button>
+          </div>
+          <img
+            src="/assets/images/hero.webp"
+            alt="Construction Site"
+            class="hero-image"
+          />
+        </div>
+      </section>
+
+      <!-- Benefits Section -->
+      <section id="about" class="benefits-section">
+        <img
+          src="/assets/images/benefits-1.webp"
+          alt=""
+          class="benefits-image"
+        />
+        <div class="benefits-content">
+          <div class="benefits-list">
+            <div class="benefit">
+              <div class="benefit-icon">
+                <img src="/assets/images/benefit-icon.svg" alt="" />
+              </div>
+              <p>
+                With over 20 years of experience, we deliver high-quality
+                construction projects on time and within budget.
+              </p>
+            </div>
+            <div class="benefit">
+              <div class="benefit-icon">
+                <img src="/assets/images/benefit-icon.svg" alt="" />
+              </div>
+              <p>
+                We prioritize eco-friendly materials and practices to reduce
+                environmental impact.
+              </p>
+            </div>
+            <div class="benefit">
+              <div class="benefit-icon">
+                <img src="/assets/images/benefit-icon.svg" alt="" />
+              </div>
+              <p>
+                Our team uses the latest technology to ensure precision and
+                efficiency in every project.
+              </p>
+            </div>
+            <div class="benefit">
+              <div class="benefit-icon">
+                <img src="/assets/images/benefit-icon.svg" alt="" />
+              </div>
+              <p>
+                We focus on delivering exceptional service and ensuring our
+                clients are satisfied with the results.
+              </p>
+            </div>
+          </div>
+          <button onclick="location.href='#contact'">ORDER NOW</button>
+        </div>
+        <img
+          src="/assets/images/benefits-2.webp"
+          alt=""
+          class="benefits-image"
+        />
+      </section>
+
+      <!-- Contact Form -->
+      <section id="contact" class="contact-form-section">
+        <div class="container">
+          <div class="form-wrapper">
+            <div class="contact-form">
+              <h2 class="contact-form-title">Get in touch</h2>
+              <form id="contactForm">
+                <div class="contact-form-group">
+                  <input type="text" placeholder="Name" name="name" />
+                  <input type="email" placeholder="E-mail" name="email" />
+                </div>
+                <div class="checkbox-group">
+                  <input type="checkbox" id="privacy" name="privacy" />
+                  <label for="privacy">I accept Privacy policy</label>
+                </div>
+                <button type="submit">SUBMIT FORM</button>
+                <p
+                  id="formMessage"
+                  style="display: none; color: green; margin-top: 10px"
+                >
+                  Form submitted successfully!
+                </p>
+              </form>
+            </div>
+            <img
+              src="assets/images/woman.webp"
+              alt="Woman"
+              class="contact-image woman-image"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <div class="nav-wrapper">
+        <nav>
+          <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="links-wrapper">
+          <div class="site-logo"><a href="#home">ARCADIA</a></div>
+          <div class="social-links">
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="/assets/images/instagram-icon.svg" alt="Instagram" />
+            </a>
+            <a href="https://www.tiktok.com/" target="_blank">
+              <img src="/assets/images/tiktok-icon.svg" alt="TikTok" />
+            </a>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <img src="/assets/images/linkedin-icon.svg" alt="LinkedIn" />
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="/assets/images/facebook-icon.svg" alt="Facebook" />
+            </a>
+            <a href="https://web.telegram.org/" target="_blank">
+              <img src="/assets/images/telegram-icon.svg" alt="Telegram" />
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src="/assets/images/youtube-icon.svg" alt="YouTube" />
+            </a>
+          </div>
+
+          <button onclick="location.href='#contact'">ORDER NOW</button>
+        </div>
+        <div class="copyright-wrapper">
+          <p>© 2024, Copyright.</p>
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </footer>
+    <dialog id="successModal">
+      <p>Form submitted successfully!</p>
+      <button id="closeModal">OK</button>
+    </dialog>
+    <script src="script.js"></script>
+  </body>
+</html>
